@@ -1,0 +1,386 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f1f3f4;
+    font-family: sans-serif;
+}
+
+.top-nav-bar {
+    height: 63px;
+    top: 0;
+    position: sticky;
+    background: #fff;
+    border-bottom: 3px solid red;
+    z-index: 2;
+}
+
+.form-control {
+    margin-top: 9px;
+    margin-left: 60px;
+    border: 1px solid red !important;
+    border-top-left-radius: 20px !important;
+    border-bottom-left-radius: 20px !important;
+    border-top-right-radius: 0!important;
+    border-bottom-right-radius: 0 !important;
+    box-shadow: orangered;
+}
+
+.input-group-text {
+    background: red;
+    border: 1px solid red;
+    margin: 8.5px 10px 8px 0;
+    border-top-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+    border-top-right-radius: 20px !important;
+    border-bottom-right-radius: 20px !important;
+    cursor: pointer;
+}
+
+.search-box {
+    display: inline-flex;
+    width: 60%;
+}
+
+.fa-search {
+    color: #fff;
+}
+
+.menu-bar {
+    width: 40%;
+    height: 57px;
+    float: right;
+}
+
+.menu-bar ul {
+    display: inline-flex;
+    float: right;
+}
+
+.menu-bar ul li {
+    border-left: 1px solid #fff;
+    list-style-type: none;
+    padding: 18px 35px;
+    text-align: center;
+    background-color: red;
+    cursor: pointer;
+}
+
+.menu-bar ul li a {
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu-bar ul li a:hover {
+    color: black;
+}
+
+.fa-shopping-basket {
+    margin-right: 5px;
+}
+
+@media only screen and (max-width:980px) {
+    .top-nav-bar {
+        height: 118px;
+        border-bottom: 0;
+    }
+    .search-box {
+        width: 100%;
+    }
+    .menu-bar {
+        margin: 10px 0;
+        width: 100%;
+    }
+    .menu-bar ul li {
+        height: 57px;
+        width: 100px;
+    }
+}
+
+
+/*------------------------->side bar--------------------------------*/
+
+.side-menu {
+    height: 590px;
+    width: 15%;
+    font-size: 14px;
+    float: left;
+    z-index: 2;
+    background-color: #ddd;
+    margin-top: 0px;
+}
+
+.side-menu ul {
+    margin-left: 10px;
+}
+
+.side-menu ul li {
+    list-style-type: none;
+    font-weight: bold;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.side-menu ul li:hover {
+    color: red;
+}
+
+.side-menu ul li ul {
+    display: none;
+    z-index: 10;
+    top: 77px;
+}
+
+.side-menu ul li:hover ul {
+    display: block;
+    height: 400px;
+    margin-left: 14%;
+    padding: 0 100px 10px 10px;
+    background: #ececec;
+    position: fixed;
+    box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.5);
+}
+
+.fa-angle-right {
+    margin-top: 4px;
+    margin-right: 8px;
+    float: right;
+}
+
+#menu-btn,
+#close-btn {
+    font-size: 30px;
+    margin: 10px;
+    color: red;
+}
+
+.slider {
+    width: 1150px;
+    margin-left: 15%;
+    padding: 0 10px;
+}
+
+@media only screen and (max-width:980px) {
+    .side-menu {
+        width: 34%;
+        z-index: 20;
+        top: 133px;
+        position: fixed;
+        font-size: 12px;
+        display: none;
+    }
+    .side-menu ul li ul {
+        top: 133px;
+    }
+    .side-menu ul li:hover ul {
+        margin-left: 33%;
+    }
+    #menu-btn {
+        display: block;
+    }
+}
+
+.carousel-caption {
+    top: 65%;
+    transform: translateY(-50%);
+    bottom: initial!important;
+}
+
+.carousel-caption h5 {
+    color: #fff;
+    font-size: 42px;
+}
+
+.carousel {
+    box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.5);
+}
+
+
+
+
+/*-------------------------website-features------------*/
+
+.website-features {
+    margin: 60px 0;
+}
+
+.website-features img {
+    width: 20%;
+}
+
+.feature-text {
+    margin-top: 10px;
+    float: right;
+    width: 80%;
+    padding-left: 20px;
+}
+
+.feature-box {
+    padding-top: 20px;
+}
+
+.website-features h1:hover {
+    transform: scale(1.1);
+    color: orangered;
+}
+
+
+/*-----------------footer------------*/
+
+.footer {
+    margin-top: 220px;
+    background: #000;
+    color: #fff;
+}
+
+.footer h1 {
+    font-size: 16px;
+    margin: 25px 0;
+}
+
+.footer p {
+    font-size: 13px;
+}
+
+.copyright {
+    margin-bottom: -80px;
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+
+.fa-heart-o {
+    color: red;
+    font-size: 15px;
+}
+
+.footer hr {
+    margin-top: 10px;
+    background-color: #ccc;
+}
+
+.footer-image img {
+    width: 150px;
+}
+
+.footer .row .fa {
+    padding-right: 20px;
+    font-size: 15px;
+}
+
+.new-arrival {
+    background: green;
+    width: 50px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.col-md-7 h2 {
+    color: #555;
+}
+
+.single-product .fa {
+    color: orange;
+}
+
+.single-product .price {
+    color: orange;
+    font-size: 26px;
+    font-weight: bold;
+    padding-top: 20px
+}
+
+.single-product input {
+    border: 1px solid #ccc;
+    font-weight: bold;
+    height: 33px;
+    text-align: center;
+    width: 30px;
+}
+
+.single-product .btn-primary {
+    background: orange !important;
+    color: #fff;
+    font-size: 15px;
+    margin-left: 20px;
+    border: none;
+    box-shadow: none !important;
+}
+
+.product-description h5 {
+    margin-top: 50px;
+    color: orange;
+}
+
+.product-description p {
+    margin-top: 30px;
+}
+
+#wishlist .fa-heart-o {
+    margin-top: 200px;
+    font-size: 120px;
+    margin-bottom: 200px;
+}
+
+.fa-heart-o {
+    color: #fff;
+}
+
+.wish .fa-heart-o {
+    color: black
+}
+
+.fa-sign-in {
+    color: #fff;
+}
+
+
+/*-------------------------tshirts------------*/
+
+.thumbnail {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 250px;
+}
+
+.thumbnail img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    color: orchid;
+}
+
+.thumbnail img:hover {
+    transform: scale(1.1);
+    box-shadow: 2px 1px 4px 1px black;
+}
+
+.text {
+    margin-top: -200px;
+}
+
+.jumbotron {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-top: 8px;
+}
+
+.cart {
+    margin-left: 360px;
+    margin-top: 50px;
+}
+
+.img_k img:hover {
+    transform: scale(1.1);
+    box-shadow: 2px 1px 4px 1px red;
+}

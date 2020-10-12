@@ -1,0 +1,276 @@
+* {
+        margin: 0;
+        padding: 0;
+        font-family: Century Gothic;
+    }
+	body{
+	background-color:rgba(254,233,255,0);
+	font-size: 125%;
+	background: url(jindal1.jpg);
+	background-size:100%100%;
+}
+    ul
+	{
+		
+		color:red;
+		
+	}
+	
+	
+    header {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('intro-bg_1.jpg');
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+       /* background-position: center;*/
+    }
+    
+    ul {
+        float:left;
+        list-style-type: none;
+        margin-top: 0px;
+		margin-left:0PX;
+    }
+    
+    ul li {
+        display: inline-block;
+    }
+    
+    ul li a {
+        text-decoration: none;
+        color: black;
+        padding: 5px 20px;
+        border: 3px solid transparent;
+        font-size: larger;
+        font-style: normal;
+        transition: 0.6s ease;
+        font-weight: bold;
+    }
+    
+    ul li.active a {
+        background-color: #fff;
+        color: #000;
+    }
+    
+    ul li a:hover {
+        background-color: #5948fd;
+        color: #000;
+    }
+    
+    
+    
+    .main {
+        max-width: 1200px;
+        /*margin: auto;*/
+    }
+    
+    .title {
+		text-align:center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+	.title h3 {
+        color: white;
+        font-size: 30px;
+		
+		left: 65%;
+		
+		color:black;
+		animation:mo 4s 1;
+    }
+    
+    .title h1 {
+        color: #fff;
+        font-size: 70px;
+		animation: text 4s 1;
+		
+		position:relative;
+		
+    }
+	@keyframes text {
+  0%{color: black;
+  margin-bottom:-40px;}
+  30% {letter-spacing:20px;
+  margin-bottom:-40px;}
+  85% {letter-spacing:8px;
+  margin-bottom:-40px;}
+}
+	@keyframes mo {
+  from{color: rgba(0,0,0,0);
+  }
+  to {color:black;
+  }
+  
+}
+    .button {
+        position: absolute;
+        top: 62%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .btn {
+        border: 1px solid #fff;
+        padding: 10px 30px;
+        color: #fff;
+        text-decoration: none;
+        transition: 0.6s ease;
+    }
+    
+    .btn:hover {
+        background-color: #fff;
+        color: #000;
+    }
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+li
+	{
+		
+		float:left;
+		
+	}
+	
+	
+	.to
+	{
+		display:flex;
+		position:relative;
+	}
+	.to .nav{
+		
+		position:fixed;
+		width:210px;
+		height:100%;
+		background:#4b4276;
+		padding:30px 0;
+		
+	}
+	.to .nav ul li
+	
+	{
+		padding:15px;
+		border-bottom:1px solid rgba(0,0,0,0.05);
+		border-top:1px solid rgba(225,225,225,0.05);
+
+		
+		
+	}
+	
+	.to .nav ul li a{
+		
+		display: block;
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+    text-decoration: none;
+    line-height: 45px;
+    border-bottom:1px solid #393939;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    text-transform: capitalize;
+		
+		
+	}
+	
+	.to .nav li a:not(.active):hover{
+    padding-left: 5px;
+	padding-bottom: 5px;
+	}
+	
+	
+	
+	.social{
+        position: absolute;
+        top: 80%;
+        left: 50%;
+        transform: translatex(-50%);
+		
+		
+	}
+.social a
+{
+	
+	width: 40px;
+  
+  height: 40px;
+  line-height: 45px;
+  text-align: center;
+  margin: 0 5px;
+  color: blue;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+	padding:40px;
+	
+}
+#i
+{
+	color:pink;
+	
+	
+	
+}
+#k{color:#3b5999;}
+#m
+{color:#0077B5;}
+.topnav input[type=text] {
+  float: center;
+  left:50%;
+  margin-top:20px;
+  margin-right: 16px;
+  border: none;
+  font-size: 25px;
+  text-align:center;
+        position: absolute;
+        padding:1px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+		width:40%;
+}
+.topnav button
+
+{
+position: absolute;
+background-color:rgba(0,0,0,0)
+        margin-top:20px;
+        left:27.6%;
+        transform: translate(-50%, -50%);
+		padding:2px;
+		margin-top:20px;
+		height:5%;
+		width:5%;
+	
+	
+	
+}
+
+.ss
+{
+	float:right;
+	width:22%;
+	height:100%;
+	overflow:hidden;
+	
+	
+	
+	
+}
+.ss img
+{
+	height:719px;
+	
+	
+	
+	
+}
