@@ -1,2 +1,2 @@
-# SrijaAlla.github.io
-For an internship
+# Sample Landing Page
+For an e-commerce Webiste
